@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    background-color: #1C1C1C;
+    font-family: "Inter", serif;
+    display:flex;
+    justify-content: center;
+}
+
+#container {
+    width: 550px;
+    height: 729px;
+    outline: 1px solid black;
+    text-align: center;
+    background-color: #1F2937;
+}
+
+#first-container {
+    outline: 1px solid black;
+    margin: 0;
+    width: 550px;
+    height: 285px;
+    background-color: #6943FF;
+    padding-top: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#second-container {
+    margin: 33px 0px 0px 0px;
+
+}
+
+h1 {
+    margin: 0px;
+    color:white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#input-el {
+    width: 117px;
+    height: 83px;
+    text-align: center;
+    font-size: 58px;
+    font-weight: 800;
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    margin-top: 40px;
+    
+}
+
+#btn {
+    min-width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    text-shadow: 0px 0px 2px 0px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500px;
+    border: none;
+}
+
+#btn:active {
+    transform: scale(1.1);
+}
+
+.output-container {
+    width: 500px;
+    height: 108.57px;
+    background-color: #273549;
+    margin: auto;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600px;
+    padding-top: 31px;
+    color: #CCC1FF;
+}
+
+.conversion {
+    color: white;
+    font-size: 14px;
+    font-weight: 400px;
+}
