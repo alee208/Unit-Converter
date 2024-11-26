@@ -36,7 +36,7 @@ function convertVolume() {
 
 function convertMass() {
     const inputValue = parseFloat(inputEl.value);
-    let poundConversion = (inputValue * 0.264).toFixed(3);
-    let kiloConversion = (inputValue / 0.264).toFixed(3);
+    let poundConversion = (inputValue * 2.204).toFixed(3);
+    let kiloConversion = (inputValue / 2.204).toFixed(3);
     massEl.textContent = `${inputValue} kilos = ${poundConversion} pounds | ${inputValue} pounds = ${kiloConversion} kilos`
 };
